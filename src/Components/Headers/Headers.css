@@ -1,0 +1,57 @@
+#header {
+    transition: ease-in-out 0.3s;
+    position: relative;
+    height: 100vh;
+    display: flex;
+    /* overflow-y: auto; */
+    align-items: center;
+    z-index: 997;
+}
+#header * {
+    transition: ease-in-out 0.3s;
+}
+#header h1{
+    font-family: "Popins",sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    margin: 0;
+    padding: 0;
+    line-height: 1; 
+}
+#header h3{
+    font-size: 36px;
+    margin-top: 20x;
+    padding: 12px 0;
+    line-height: 1.5;
+    color: rgb(94, 138, 177);
+}
+
+#header .social-links a{
+    font-size: 16px;
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255,255,255, 0.1);
+    color: #fff;
+    line-height: 1;
+    margin-right: 8px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+#header .social-links a:hover{
+    background: #18d26e;
+    text-decoration: none;
+}
+#header .profileImg {
+    border-radius: 100% !important;
+    border: 3px solid #18d26e;
+    transition: all  .5s ease-in-out;
+}
+#header .profileImg:hover {
+    box-shadow: 1px 2px 20px 0px #18d26e;
+}
+#header .profileImg img{
+    width: 100%;   
+    border-radius: 100% !important;
+}

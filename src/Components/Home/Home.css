@@ -1,0 +1,14 @@
+/* --========== Genarel Style ==========--*/
+*{
+    padding: 0;margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+    background:linear-gradient(#04040400,#04040407), url('../../images/footer-bg.png') top right no-repeat;
+    background-size:cover;
+    background-color: #040404;
+    background-attachment: fixed;
+}
