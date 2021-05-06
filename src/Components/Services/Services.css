@@ -1,0 +1,66 @@
+
+/* --===== Services Style =====-- */
+#services .icon-box {
+    text-align: center;
+    background: rgba(204,204,204,0.1);
+    padding: 80px 20px;
+    transition: all 0.3s ease-in-out;
+
+}
+#services .icon-box .icons {
+    width: 64px;
+    height: 64px;
+    margin: 0 auto;
+    position: relative;
+    background: #18d26e;
+    border-radius: 5px;
+    transform-style: preserve-3d;
+    transition: all 0.3s ease-in-out;
+    margin-bottom: 20px;
+}
+#services .icon-box .icons::before {
+    position: absolute;
+    content: "";
+    left: -8px;
+    top: -8px;
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    background: rgba(255,255,255, 0.15);
+    transform: translateZ(-1px);
+    transition: all .3s ease-in-out;
+}
+#services .icon-box .icons i{
+    color: #fff;
+    font-size: 30px;
+}
+#services .icon-box h4{
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+#services .icon-box p{
+    line-height: 24px;
+    font-size: 14px;
+    margin-bottom: 0 ;
+}
+#services .icon-box a:hover{
+    color: #fff;
+}
+#services .icon-box:hover {
+    background: rgb(54, 29, 29);
+    border-color: #18d26e;
+}
+#services .icon-box:hover .icons {
+    background: #fff;
+}
+#services .icon-box:hover .icons::before {
+    background: #ff28f4;
+}
+#services .icon-box:hover h4 a,
+#services .icon-box:hover p{
+    color: #fff;
+}
+#services .icon-box:hover .icons i {
+    color: #18d26e;
+}

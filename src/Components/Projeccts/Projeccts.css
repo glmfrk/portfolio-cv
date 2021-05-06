@@ -1,0 +1,16 @@
+/* --===== Projects Style =====-- */
+#projects .project-box {
+    z-index: 2;
+    transition: all .3s ease-in-out;
+    position: relative;
+   
+   }
+   #projects .project-box img{
+       width: 100%;
+       height: 100%;
+   }
+   #projects .project-box:hover {
+       background: rgba(54, 29, 29, 0.199);
+       z-index: 5;
+   }
+   

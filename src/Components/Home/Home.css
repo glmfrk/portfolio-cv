@@ -12,3 +12,46 @@ body{
     background-color: #040404;
     background-attachment: fixed;
 }
+
+/* --===== make it responsive =====-- */
+@media(max-width:992px){
+    #header-main h1{
+        font-size: 36px;
+    }
+    #header-main h2{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    #header-main .social-links{
+        margin-top: 15px;
+    }
+    #header-main .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    #header-main {
+        margin-top: 150px;
+    }
+    #about{
+        margin-top: 150px;
+    }
+}
+
+@media(max-width:768px){
+    #header-top .header-tops{
+        height: 60px;
+        margin-bottom: 50px;
+    }
+    #header-top .header-tops h1{
+        font-size: 26px;
+    }
+    #header-main {
+        margin-top: 150px;
+    }
+    #about{
+        margin-top: 150px;
+    }
+}
