@@ -1,5 +1,11 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Projeccts.css';
+import project1 from '../../images/project1.png';
+import project2 from '../../images/project2.png';
+import project3 from '../../images/project3.png';
+import project5 from '../../images/project5.PNG';
+import project6 from '../../images/project6.PNG';
 
 const Projeccts = () => {
     return (
@@ -12,19 +18,19 @@ const Projeccts = () => {
                 </div>
                 <div className="row">
                     <div className="col-md-6 col-lg-4 mt-4 d-flex align-items-stretch">
-                        <div className="project-box"><a href="https://complete-website-client.web.app/"><img src="./images/project1.png" alt="" className="img-fluid" /></a></div>
+                        <div className="project-box"><Link to="//complete-website-client.web.app/" target="blank"><img src={project1} alt="" className="img-fluid" /></Link></div>
                     </div>
                     <div className="col-md-6 col-lg-4 mt-4 d-flex align-items-stretch">
-                        <div className="project-box"><a href="https://condescending-spence-3555fb.netlify.app"><img src="./images/project2.png" alt="" className="img-fluid" /></a></div>
+                        <div className="project-box"><Link to="//condescending-spence-3555fb.netlify.app" target="blank"><img src={project2} alt="" className="img-fluid" /></Link></div>
                     </div>
                     <div className="col-md-6 col-lg-4 mt-4 d-flex align-items-stretch">
-                        <div className="project-box"><a href="https://youthful-bcb-players.netlify.app/"><img src="./images/project3.png" alt="" className="img-fluid" /></a></div>
+                        <div className="project-box"><Link to="//youthful-bcb-players.netlify.app/" target="blank"><img src={project3} alt="" className="img-fluid" /></Link></div>
                     </div>
                     <div className="col-md-6 col-lg-4 mt-4 d-flex align-items-stretch">
-                        <div className="project-box"><a href="https://glmfrk.github.io/hungry-monster/"><img src="./images/project5.png" alt="" className="img-fluid" /></a></div>
+                        <div className="project-box"><Link to="//glmfrk.github.io/hungry-monster/" target="blank"><img src={project5} alt="" className="img-fluid" /></Link></div>
                     </div>
                     <div className="col-md-6 col-lg-4 mt-4 d-flex align-items-stretch">
-                        <div className="project-box"><a href="https://glmfrk.github.io/responsive-assignment/"><img src="./images/project6.png" alt="" className="img-fluid" /></a></div>
+                        <div className="project-box"><Link to="//glmfrk.github.io/responsive-assignment/" target="blank"><img src={project6} alt="" className="img-fluid" /></Link></div>
                     </div>
                 </div>
             </div>

@@ -5,13 +5,13 @@
     background: rgba(255,255,255, 0.08);
     width: 100%;
 }
-#contact .info-box i{
+#contact .info-box .info-icon svg.svgIcon {
     font-size: 24px;
-    color: #18d26e;
+    color: rgba(204,204,204,0.1);
     float: left;
     padding: 14px;
     border-radius: 50%;
-    background: rgba(204,204,204,0.1);
+    background: #18d26e;
 }
 #contact .info-box h6{
     font-size: 20px;
@@ -20,14 +20,18 @@
     background: rgba(255,255,255, 0.05);
 }
 #contact .info-box .social-links a{
-    color: #fff;
+    color: #18d26e;
     transition: all .3s ease-in-out;
     line-height: 1;
-    font-size: 18px;
+    font-size: 24px;
+    float: left;
+
+    border-radius: 50%;
+    background: rgba(204,204,204,0.1);
 }
-#contact .info-box .social-links a:hover i{
+#contact .info-box .social-links:hover a:hover {
     color:  #fff;
-    background: #114b2c;
+    background: #18d26e;
 }
 #contact .info-box strong{
     padding: 0;

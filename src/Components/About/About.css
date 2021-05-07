@@ -29,7 +29,7 @@
     text-align: center;
     background: rgba(255,255,255, 0.08);
 }
-.counts .count-box i{
+.counts .count-box #count-icon{
     position: absolute;
     top: -25px;
     left: 50%;

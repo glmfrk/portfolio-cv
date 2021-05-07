@@ -1,38 +1,50 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './About.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faAngleDoubleRight, faDownload, faFolderPlus, faSmile, faUserAlt } from '@fortawesome/free-solid-svg-icons';
+import profile2 from '../../images/faruk.png';
+import dhdel from '../../images/dh-del.jpg';
+import iqubal from '../../images/iqubal.jpg';
+import nmkazi from '../../images/nm-kazi.jpg';
+import delower from '../../images/delowar.jpg';
+import alamin from '../../images/alamin.jpg';
+import { faLifeRing } from '@fortawesome/free-regular-svg-icons';
+
 
 const About = () => {
     return (
-        <section id="about" className="about">
-            <div class="container about-me">
-                <div class="section-title py-2">
+        <section id="about" classNameName="about">
+            <div className="container about-me">
+                <div className="section-title py-2">
                     <h2>About Me</h2>
                     <p>I am gulam faruk. I am a very sensitive, honest, and cool-minded person as a professional in my work.
                         To say, I have been working and learning about my active activity for almost 3 years online.
                         I am a very professional Web Developer using React.js with MongoDB and Node JS. WordPress theme development expert Although I love SEO and I enjoy Computer-related anything...</p>
                 </div>
-                <div class="row">
-                    <div class="col-md-4" >
-                        <img class="img-fluid" src="./images/faruk.png" alt="faruk profile"/>
+                <div className="row">
+                    <div className="col-md-4" >
+                        <img className="img-fluid" src={profile2} alt="faruk profile"/>
                     </div>
-                    <div class="col-md-8 pt-4 pt-md-0 content" >
+                    <div className="col-md-8 pt-4 pt-md-0 content" >
                         <h3>Web Designer &amp; Developer</h3>
                         <small> I am a very professional Web Developer using React.js with MongoDB and Node JS. WordPress theme development expert</small>
-                        <div class="row pt-2">
-                            <div class="col-md-6">
+                        <div className="row pt-2">
+                            <div className="col-md-6">
                                 <ul>
-                                    <li><i class="fas fa-angle-double-right"></i><strong>Birthday :</strong> 1 jan 1999</li>
-                                    <li><i class="fas fa-angle-double-right"></i><strong>Website :</strong> <a href="#">www.example.com</a></li>
-                                    <li><i class="fas fa-angle-double-right"></i><strong>Phone :</strong> +880 96 9610 3644</li>
-                                    <li><i class="fas fa-angle-double-right"></i><strong>Email :</strong> golamfaruk204@gmail.com</li>
-                                    <li><i class="fas fa-angle-double-right"></i><strong>City :</strong> Mymensingh, Bangladesh</li>
+                                    <li><FontAwesomeIcon icon={faAngleDoubleRight} /><strong>Birthday :</strong> 1 jan 1999</li>
+                                    <li><FontAwesomeIcon icon={faAngleDoubleRight} /><strong>Website :</strong> <Link to="//localhost:3000/" target="blank">localhost:3000/</Link></li>
+                                    <li><FontAwesomeIcon icon={faAngleDoubleRight} /><strong>Phone :</strong> +880 96 9610 3644</li>
+                                    <li><FontAwesomeIcon icon={faAngleDoubleRight} /><strong>Email :</strong> golamfaruk204@gmail.com</li>
+                                    <li><FontAwesomeIcon icon={faAngleDoubleRight} /><strong>City :</strong> Mymensingh, Bangladesh</li>
+                                    
                                 </ul>
                             </div>
-                            <div class="col-md-6">
+                            <div className="col-md-6">
                                 <ul>
-                                    <li><i class="fas fa-angle-double-right"></i><strong>Age :</strong> 22 years</li>
-                                    <li><i class="fas fa-angle-double-right"></i><strong>Academic Degree :</strong> H.S.C</li>
-                                    <li><i class="fas fa-angle-double-right"></i><strong>Freelancing :</strong> Available</li>
+                                    <li><FontAwesomeIcon icon={faAngleDoubleRight} /><strong>Age :</strong> 22 years</li>
+                                    <li><FontAwesomeIcon icon={faAngleDoubleRight} /><strong>Academic Degree :</strong> H.S.C</li>
+                                    <li><FontAwesomeIcon icon={faAngleDoubleRight} /><strong>Freelancing :</strong> Available</li>
 
                                 </ul>
                             </div>
@@ -41,32 +53,40 @@ const About = () => {
                 </div>
             </div> {/* --===== About End Here=====-- */}
 
-            <div class="counts container mt-3">
-                <div class="row">
-                    <div class="col-md-6 col-lg-3">
-                        <div class="count-box">
-                            <i class="fas fa-smile"></i>
+            <div className="counts container mt-3">
+                <div className="row">
+                    <div className="col-md-6 col-lg-3">
+                        <div className="count-box">
+                            <div id="count-icon">
+                            <FontAwesomeIcon className="count-box-icon" icon={faSmile} />
+                            </div>
                             <span >230</span>
                             <p>Happy Clients </p>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-3 mt-5 mt-md-0">
-                        <div class="count-box">
-                            <i class="fas fa-folder-plus"></i>
+                    <div className="col-md-6 col-lg-3 mt-5 mt-md-0">
+                        <div className="count-box">
+                            <div id="count-icon">
+                            <FontAwesomeIcon className="count-box-icon" icon={faFolderPlus} />
+                            </div>
                             <span >23</span>
                             <p>My Projects </p>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-3 mt-5 mt-md-0">
-                        <div class="count-box">
-                            <i class="fas fa-life-ring"></i>
+                    <div className="col-md-6 col-lg-3 mt-5 mt-md-0">
+                        <div className="count-box">
+                           <div id="count-icon">
+                                <FontAwesomeIcon className="count-box-icon " icon={faLifeRing} />
+                           </div>
                             <span >230</span>
                             <p>Hours of Support</p>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-3 mt-5 mt-md-0">
-                        <div class="count-box">
-                            <i class="fas fa-user-alt"></i>
+                    <div className="col-md-6 col-lg-3 mt-5 mt-md-0">
+                        <div className="count-box">
+                            <div id="count-icon">
+                            <FontAwesomeIcon className="count-box-icon" icon={faUserAlt} />
+                            </div> 
                             <span >13</span>
                             <p>Hard Worker </p>
                         </div>
@@ -74,52 +94,52 @@ const About = () => {
                 </div>
             </div>   {/* --===== Counts End Here=====-- */}
            
-            <div class="skills container">  {/* <!--===== skills container start =====--> */}
-                <div class="skill-title">
+            <div className="skills container">  {/* <!--===== skills container start =====--> */}
+                <div className="skill-title">
                     <h2>My Skills</h2>
                 </div>
-                <div class="row skill-content">
-                    <div class="col-md-6">
-                        <div class="progress">
-                            <span class="skill">HTML, CSS & BOOTSTRAP<i class="val"></i> 90%</span>
-                            <div class="progress-bar-wrap">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                <div className="row skill-content">
+                    <div className="col-md-6">
+                        <div className="progress">
+                            <span className="skill">HTML, CSS & BOOTSTRAP<i className="val"></i> 90%</span>
+                            <div className="progress-bar-wrap">
+                                <div className="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                         </div>
                     
-                        <div class="progress">
-                            <span class="skill">JavaScript,JQuery & ReactJS<i class="val"></i> 80%</span>
-                            <div class="progress-bar-wrap">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                        <div className="progress">
+                            <span className="skill">JavaScript,JQuery & ReactJS<i className="val"></i> 80%</span>
+                            <div className="progress-bar-wrap">
+                                <div className="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                         </div>
 
-                        <div class="progress">
-                            <span class="skill">Node & Express<i class="val"></i> 70%</span>
-                            <div class="progress-bar-wrap">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                        <div className="progress">
+                            <span className="skill">Node & Express<i className="val"></i> 70%</span>
+                            <div className="progress-bar-wrap">
+                                <div className="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                         </div>
-                        <div class="progress">
-                            <span class="skill">PHP<i class="val"></i> 70%</span>
-                            <div class="progress-bar-wrap">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                        <div className="progress">
+                            <span className="skill">PHP<i className="val"></i> 70%</span>
+                            <div className="progress-bar-wrap">
+                                <div className="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                         </div>
-                        <div class="progress">
-                            <span class="skill">WordPress<i class="val"></i> 85%</span>
-                            <div class="progress-bar-wrap">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                        <div className="progress">
+                            <span className="skill">WordPress<i className="val"></i> 85%</span>
+                            <div className="progress-bar-wrap">
+                                <div className="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                         </div>
-                        <div class="progress">
-                            <span class="skill">MongoDB & MySQL<i class="val"></i> 85%</span>
-                            <div class="progress-bar-wrap">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                        <div className="progress">
+                            <span className="skill">MongoDB & MySQL<i className="val"></i> 85%</span>
+                            <div className="progress-bar-wrap">
+                                <div className="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                         </div>
                     </div>
-                <div class="col-md-6">
+                <div className="col-md-6">
                     <div id="resume">
                         <p>Hello There,
 
@@ -133,74 +153,85 @@ const About = () => {
                             
                             Thanks <br/>
                             Gulam Faruk</p>
-                        <a href="https://drive.google.com/file/d/1DtqN-sNxNjjWt0Q5CcV9UYujANl4jhIC/view?usp=sharing"><input class="btn btn-success" type="button" value="Download CV" /></a>
+                        <Link to="//drive.google.com/file/d/1DtqN-sNxNjjWt0Q5CcV9UYujANl4jhIC/view?usp=sharing" target="blank"><button className="btn btn-success"><FontAwesomeIcon color="#ddd" icon={faDownload} /> Download My CV</button></Link>
                     </div>
                 </div>
                 </div>
             </div>  {/* --===== End Skill =====-- */}
 
             {/* <!--===== Testimonial Start =====--> */}
-        <div class="testimonials container mt-5">
-            <div class="section-title">
+        <div className="testimonials container mt-5">
+            <div className="section-title">
                 <h2>Testimonial</h2>
             </div>
-            <div class="row ">
-                <div class="col-md-12 col-lg-12">
-                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                        <ol class="carousel-indicators">
-                          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <div className="row ">
+                <div className="col-md-12 col-lg-12">
+                    <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
+                        <ol className="carousel-indicators">
+                          <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>
                           <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
                           <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
                         </ol>
-                        <div class="carousel-inner">
-                          <div class="carousel-item active">
-                            <div class="feedback shadow p-5 d-flex">
-                                <i class="fas fa-quote-left"></i>
+                    
+                        <div className="carousel-inner">
+                          <div className="carousel-item active">
+                            <div className="feedback shadow p-5 d-flex">
+                                <i className="fas fa-quote-left"></i>
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid obcaecati voluptas qui molestias labore perspiciatis quidem optio ut. Facilis voluptatem perferendis optio iste aut rem blanditiis nostrum placeat modi culpa.</p>
-                                <i class="fas fa-quote-right"></i>
+                                <i className="fas fa-quote-right"></i>
                             </div>
-                            <img src="./images/dh-del.jpg" class="rounded-circle testimonial-img" alt="DH DEL" />
+                            <img src={dhdel} className="rounded-circle testimonial-img" alt="DH DEL" />
                             <h5>DH DEL</h5>
                             <p>Managing Director &amp; Founder</p>
                           </div>
-                          <div class="carousel-item ">
-                            <div class="feedback shadow p-5 d-flex">
-                                <i class="fas fa-quote-left"></i>
+                          <div className="carousel-item ">
+                            <div className="feedback shadow p-5 d-flex">
+                                <i className="fas fa-quote-left"></i>
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid obcaecati voluptas qui molestias labore perspiciatis quidem optio ut. Facilis voluptatem perferendis optio iste aut rem blanditiis nostrum placeat modi culpa.</p>
-                                <i class="fas fa-quote-right"></i>
+                                <i className="fas fa-quote-right"></i>
                             </div>
-                            <img src="./images/iqubal.jpg" class="rounded-circle testimonial-img" alt="iqubal" />
+                            <img src={iqubal} className="rounded-circle testimonial-img" alt="iqubal" />
                             <h5>Iqubal Bengali</h5>
                             <p>CEO&amp; Founder</p>
                           </div>
-                          <div class="carousel-item">
-                            <div class="feedback shadow p-5 d-flex">
-                                <i class="fas fa-quote-left"></i>
+                          <div className="carousel-item">
+                            <div className="feedback shadow p-5 d-flex">
+                                <i className="fas fa-quote-left"></i>
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid obcaecati voluptas qui molestias labore perspiciatis quidem optio ut. Facilis voluptatem perferendis optio iste aut rem blanditiis nostrum placeat modi culpa.</p>
-                                <i class="fas fa-quote-right"></i>
+                                <i className="fas fa-quote-right"></i>
                             </div>
-                            <img src="./images/nm-kazi.jpg" class="rounded-circle testimonial-img" alt=" kazi nadim" />
+                            <img src={nmkazi} className="rounded-circle testimonial-img" alt=" kazi nadim" />
                             <h5>NM KAZI</h5>
                             <p>WordPress Developer &amp; manager</p>
                           </div>
-                          <div class="carousel-item">
-                            <div class="feedback shadow p-5 d-flex">
-                                <i class="fas fa-quote-left"></i>
+                          <div className="carousel-item">
+                            <div className="feedback shadow p-5 d-flex">
+                                <i className="fas fa-quote-left"></i>
                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid obcaecati voluptas qui molestias labore perspiciatis quidem optio ut. Facilis voluptatem perferendis optio iste aut rem blanditiis nostrum placeat modi culpa.</p>
-                                <i class="fas fa-quote-right"></i>
+                                <i className="fas fa-quote-right"></i>
                             </div>
-                            <img src="./images/delowar.jpg" class="rounded-circle testimonial-img" alt="Delower" />
+                            <img src={delower} className="rounded-circle testimonial-img" alt="Delower" />
                             <h5>Delower Hossain</h5>
                             <p>PHP&amp; Laravel Developer</p>
                           </div>
+                          <div className="carousel-item">
+                            <div className="feedback shadow p-5 d-flex">
+                                <i className="fas fa-quote-left"></i>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid obcaecati voluptas qui molestias labore perspiciatis quidem optio ut. Facilis voluptatem perferendis optio iste aut rem blanditiis nostrum placeat modi culpa.</p>
+                                <i className="fas fa-quote-right"></i>
+                            </div>
+                            <img src={alamin} className="rounded-circle testimonial-img" alt="Delower" />
+                            <h5>Alamin Saki</h5>
+                            <p>PHP&amp; Python Developer</p>
+                          </div>
                         </div>
-                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                          <span class="sr-only">Previous</span>
+                        <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                          <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span className="sr-only">Previous</span>
                         </a>
-                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                          <span class="sr-only">Next</span>
+                        <a className="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                          <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span className="sr-only">Next</span>
                         </a>
                       </div>
                 </div>

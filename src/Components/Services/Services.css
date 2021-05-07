@@ -30,7 +30,7 @@
     transform: translateZ(-1px);
     transition: all .3s ease-in-out;
 }
-#services .icon-box .icons i{
+#services .icon-box .icons .bx-icon{
     color: #fff;
     font-size: 30px;
 }
@@ -61,6 +61,6 @@
 #services .icon-box:hover p{
     color: #fff;
 }
-#services .icon-box:hover .icons i {
+#services .icon-box:hover .icons .bx-icon {
     color: #18d26e;
 }

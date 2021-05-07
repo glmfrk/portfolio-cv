@@ -7,6 +7,7 @@ import Services from '../Services/Services';
 import Projeccts from '../Projeccts/Projeccts';
 import Blogs from '../Blogs/Blogs';
 import Contact from '../Contact/Contact';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
     return (
@@ -24,7 +25,7 @@ const Home = () => {
               <div class="container">
                   <row>
                       <div class="col">
-                          <strong>@copyright by <a href="www.facebook.com/gulafrk"> Gulam Faruk</a></strong>
+                          <strong>&copy; copyright by <Link to="//www.facebook.com/gulamfrk" target="blank"> Gulam Faruk</Link></strong>
                       </div>
                   </row>
               </div>

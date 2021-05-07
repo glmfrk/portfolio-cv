@@ -1,3 +1,5 @@
+import { faNodeJs, faReact, faWordpress } from '@fortawesome/free-brands-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import './Services.css';
 
@@ -11,28 +13,34 @@ const Services = () => {
                 <div class="row">
                     <div class="col-md-6 col-lg-4 d-flex align-items-stretch">
                         <div class="icon-box">
-                            <div class="icons d-flex align-items-center justify-content-center">
-                                <i class="bx1 fab fa-react"></i>
+                            <div class="icons d-flex align-items-center justify-content-center"> 
+                                <div className="bx-icon">
+                                    <FontAwesomeIcon icon={faReact} />
+                                </div>
                             </div>
-                            <h4><a href="#">Dynamic Website using ReactJS</a></h4>
+                            <h4>Dynamic Website using ReactJS</h4>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A vitae dolorum explicabo obcaecati ipsum, culpa nihil quas magnam suscipit, quae, nisi minus vero nesciunt aspernatur?</p>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4 d-flex align-items-stretch mt-4 mt-lg-0">
                         <div class="icon-box">
                             <div class="icons d-flex align-items-center justify-content-center">
-                                <i class="bx1 fab fa-node-js"></i>
+                                <div className="bx-icon">
+                                    <FontAwesomeIcon icon={faNodeJs} />
+                                </div>
                             </div>
-                            <h4><a href="#"> Full-Stack Website using NodeJS</a></h4>
+                            <h4>Full-Stack Website using NodeJS</h4>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A vitae dolorum explicabo obcaecati ipsum, culpa nihil quas magnam suscipit, quae, nisi minus vero nesciunt aspernatur?</p>
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-4 d-flex align-items-stretch mt-4 mt-lg-0">
                         <div class="icon-box">
                             <div class="icons d-flex align-items-center justify-content-center">
-                                <i class="bx1 fab fa-wordpress"></i>
+                                <div className="bx-icon">
+                                    <FontAwesomeIcon icon={faWordpress} />
+                                </div>
                             </div>
-                            <h4><a href="#">WordPress Theme development</a></h4>
+                            <h4>WordPress Theme development</h4>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A vitae dolorum explicabo obcaecati ipsum, culpa nihil quas magnam suscipit, quae, nisi minus vero nesciunt aspernatur?</p>
                         </div>
                     </div>
