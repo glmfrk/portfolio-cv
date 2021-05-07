@@ -49,7 +49,7 @@ const Projeccts = () => {
     }
     return (
         // <!--===== My Projeccts =====-->
-        <section id="projects" className="container-fluid projects mt-5">
+        <section id="projects" className="container-fluid projects my-5">
             <div className="container">
                 <div className="section-title">
                     <h3>Projeccts</h3>

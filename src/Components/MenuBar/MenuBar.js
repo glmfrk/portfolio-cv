@@ -1,6 +1,6 @@
 import React from 'react';
 import './MenuBar.css';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 
 const MenuBar = () => {
@@ -13,13 +13,13 @@ const MenuBar = () => {
                     </div>
                     <div className="col-md-4 ">
                         <ul className="navbar-nav mr-auto">
-                            <li className="nav-item pr-1 mr-3"><Link className="nav-link" to="/">Home</Link></li>
-                            <li className="nav-item pr-1 mr-3"><Link className="nav-link" to="/about">About</Link></li>
-                            <li className="nav-item pr-1 mr-3"><Link className="nav-link" to="/resume">Resume</Link></li>
-                            <li className="nav-item pr-1 mr-3"><Link className="nav-link" to="/services">Services</Link></li>
-                            <li className="nav-item pr-1 mr-3"><Link className="nav-link" to="/projeccts">Projeccts</Link></li>
-                            <li className="nav-item pr-1 mr-3"><Link className="nav-link" to="/blogs">Blogs</Link></li>
-                            <li className="nav-item pr-1 mr-0"><Link className="nav-link" to="/contact">Contact</Link></li>
+                            <li className="nav-item pr-1 mr-3"><a className="nav-link" href="#">Home</a></li>
+                            <li className="nav-item pr-1 mr-3"><a className="nav-link" href="#about">About</a></li>
+                            <li className="nav-item pr-1 mr-3"><a className="nav-link" href="#resume">Resume</a></li>
+                            <li className="nav-item pr-1 mr-3"><a className="nav-link" href="#services">Services</a></li>
+                            <li className="nav-item pr-1 mr-3"><a className="nav-link" href="#projects">Projeccts</a></li>
+                            <li className="nav-item pr-1 mr-3"><a className="nav-link" href="#blogs">Blogs</a></li>
+                            <li className="nav-item pr-1 mr-0"><a className="nav-link" href="#contact">Contact</a></li>
                         </ul>
                     </div>
                 </div>
