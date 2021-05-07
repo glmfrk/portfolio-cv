@@ -13,8 +13,8 @@ const MenuBar = () => {
                     </div>
                     <div className="col-md-4 ">
                         <ul className="navbar-nav mr-auto">
+                            <li className="nav-item pr-1 mr-3"><Link className="nav-link" to="/">Home</Link></li>
                             <li className="nav-item pr-1 mr-3"><Link className="nav-link" to="/about">About</Link></li>
-                            <li className="nav-item pr-1 mr-3"><Link className="nav-link" to="/home">Home</Link></li>
                             <li className="nav-item pr-1 mr-3"><Link className="nav-link" to="/resume">Resume</Link></li>
                             <li className="nav-item pr-1 mr-3"><Link className="nav-link" to="/services">Services</Link></li>
                             <li className="nav-item pr-1 mr-3"><Link className="nav-link" to="/projeccts">Projeccts</Link></li>
