@@ -10,31 +10,31 @@ import project6 from '../../images/project6.PNG';
 
 const ProjectData =[{
     id:1,
-    title: 'Complete Website',
+    title: 'Nephron Coaching',
     category: 'full-stack',
     project: project1
 },
 {
     id:2,
-    title: 'Complete Website2',
+    title: 'React Shop',
     category: 'reactjs',
     project: project2
 },
 {
     id:3,
-    title: 'Complete Website3',
+    title: 'BCB ALL Players',
     category: 'web-design',
     project: project3
 },
 {
     id:4,
-    title: 'Complete Website4',
+    title: 'Natural Pencil Drawing',
     category: 'wordpress',
     project: project6
 },
 {
     id:5,
-    title: 'Complete Website5',
+    title: 'Food Commerce',
     category: 'wordpress',
     project: project5
 },
@@ -72,7 +72,8 @@ const Projeccts = () => {
                             const {id,title,category,project} =elements;
                             return(
                                 <div className="col-md-6 col-lg-4 mt-4 d-flex align-items-stretch">
-                                    <div className="project-box"><Link to="//complete-website-client.web.app/" target="blank"><h5>{title}</h5></Link>
+                                    <div className="project-box mb-4">
+                                        <h5 className="text-light"><Link to="//complete-website-client.web.app/" target="blank">{title}</Link></h5>
                                         <img src={project} alt={title} />
                                     </div>
                                 </div> 

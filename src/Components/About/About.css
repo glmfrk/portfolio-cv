@@ -55,7 +55,7 @@
 
 /*--===== Skill Develop Style =====--*/
 .skills .progress{
-    height: 50px;
+    height: 60px;
     display: block;
     background: none;
 }
@@ -64,6 +64,7 @@
     padding: 10px 0;
     margin: 0 0 6px 0;
     display: block;
+    font-size: 16px;
     font-weight: 600;
     color: #fff;
 }
@@ -72,12 +73,13 @@
     font-style: normal;
 }
 .skills .progress-bar-wtap{
+
     background: rgba(255,255,255, 0.15);
 } 
 .skills .progress-bar{
-  
-    height: 10px;
-    transition: .9s;
+    border-radius: 10px;
+    height: 15px;
+    transition: .3s;
     background: #18d26e;
 }
 
