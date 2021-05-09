@@ -10,6 +10,7 @@
 #navbar-menu::backdrop{
     position: fixed;
     background-color: crimson;
+    scroll-behavior: smooth;
 }
 #navbar-menu .logo a{
     font-family:'Poppins', sans-serif;

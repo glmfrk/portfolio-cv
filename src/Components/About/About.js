@@ -233,7 +233,7 @@ const About = () => {
                         projetData.map((projets) =>{
                             const {id,icon,Icon,numbers,title} = projets;
                             return (
-                                <div className="col-md-6 col-lg-3">
+                                <div className="col-sm-12 col-md-6 col-lg-3 mb-3">
                                     <div className="count-box">
                                         <div id="count-icon">
                                         <FontAwesomeIcon className="count-box-icon" icon={icon} />

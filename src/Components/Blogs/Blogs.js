@@ -67,7 +67,7 @@ const Blogs = () => {
                       vlogs.map((blogs) =>{
                         const {id, blogImage, heading, blog, readMore} = blogs ;
                         return (
-                          <div class="col-md-6 col-lg-4">
+                          <div class="col-md-6 mb-sm-4 col-lg-4">
                           <div class="card" style={{width: '18rem', background: 'rgba(255, 255, 255, 0.027)'}}>
                               <img class="card-img-top" src={blogImage} alt="Card image cap" />
                               <div class="card-body">

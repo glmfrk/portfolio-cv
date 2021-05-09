@@ -55,13 +55,13 @@ const Projeccts = () => {
                     <h3>Projeccts</h3>
                     <h6>My Projeccts</h6>
                     <div className="row mt-5">
-                        <div className="col-md-10">
-                            <button onClick={() => fillterItems('full-stack')} className="btn btn-warning mr-3">WordPress</button>
-                            <button onClick={() => fillterItems('reactjs')} className="btn btn-warning mr-3">WordPress</button>
-                            <button onClick={() => fillterItems('web-design')} className="btn btn-warning mr-3">WordPress</button>
-                            <button onClick={() => fillterItems('psd')} className="btn btn-warning mr-3">WordPress</button>
-                            <button onClick={() => fillterItems('wordpress')} className="btn btn-warning mr-3">WordPress</button>
-                            <button onClick={() => setPortfolio(ProjectData)} className="btn btn-warning mr-3">ALL</button>
+                        <div className="col-md-12 mb-sm-3">
+                            <button onClick={() => fillterItems('full-stack')} className="btn btn-warning mb-sm-3 mr-3">WordPress</button>
+                            <button onClick={() => fillterItems('reactjs')} className="btn btn-warning mb-sm-3 mr-3">WordPress</button>
+                            <button onClick={() => fillterItems('web-design')} className="btn btn-warning mb-sm-3 mr-3">WordPress</button>
+                            <button onClick={() => fillterItems('psd')} className="btn btn-warning mb-sm-3 mr-3">WordPress</button>
+                            <button onClick={() => fillterItems('wordpress')} className="btn btn-warning mb-sm-3 mr-3">WordPress</button>
+                            <button onClick={() => setPortfolio(ProjectData)} className="btn btn-warning mb-sm-3 mr-3">ALL</button>
                         </div>
                     </div>
                 </div>

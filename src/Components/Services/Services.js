@@ -42,7 +42,7 @@ const Services = () => {
                         services.map((service) =>{
                             const {id, heading, description, icon } = service;
                             return (
-                                <div class="col-md-6 col-lg-4 d-flex align-items-stretch">
+                                <div class="col-sm-12 mb-sm-3 col-md-6  mb-md-3 col-lg-4 col-lg-4 d-flex align-items-stretch">
                                     <div class="icon-box">
                                         <div class="icons d-flex align-items-center justify-content-center"> 
                                             <div className="bx-icon">
