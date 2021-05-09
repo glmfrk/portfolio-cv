@@ -49,12 +49,12 @@ const Projeccts = () => {
     }
     return (
         // <!--===== My Projeccts =====-->
-        <section id="projects" className="container-fluid projects my-5">
+        <section id="projects" className="container-fluid projects my-5 mt-5">
             <div className="container">
                 <div className="section-title">
                     <h3>Projeccts</h3>
                     <h6>My Projeccts</h6>
-                    <div className="row">
+                    <div className="row mt-5">
                         <div className="col-md-10">
                             <button onClick={() => fillterItems('full-stack')} className="btn btn-warning mr-3">WordPress</button>
                             <button onClick={() => fillterItems('reactjs')} className="btn btn-warning mr-3">WordPress</button>

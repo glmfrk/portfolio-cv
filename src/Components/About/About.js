@@ -194,7 +194,7 @@ const About = () => {
     return (
         <section id="about" classNameName="about">
             <div className="container about-me">
-                <div className="section-title py-2">
+                <div className="section-title py-2 mb-2">
                     <h2>About Me</h2>
                     <p>I am gulam faruk. I am a very sensitive, honest, and cool-minded person as a professional in my work.
                         To say, I have been working and learning about my active activity for almost 3 years online.
@@ -250,7 +250,7 @@ const About = () => {
             </div>   {/* --===== Counts End Here=====-- */}
            
             <div className="skills container">  {/* <!--===== skills container start =====--> */}
-                <div className="skill-title">
+                <div className="skill-title mb-3">
                     <h2>My Skills</h2>
                 </div>
                 <div className="row skill-content">

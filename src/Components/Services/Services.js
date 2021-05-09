@@ -36,7 +36,7 @@ const Services = () => {
             <div class="container">
                 <h2>Services</h2>
                 <p>My Services</p>
-                <div class="row">
+                <div class="row mt-5">
 
                     {
                         services.map((service) =>{

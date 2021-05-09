@@ -61,7 +61,7 @@ const Blogs = () => {
             <div class="container mt-5">
               <h3>Blogs</h3>
               <h6>My Blogs</h6>
-                <div class="row">
+                <div class="row mt-4">
 
                     {
                       vlogs.map((blogs) =>{
