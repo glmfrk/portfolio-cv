@@ -35,13 +35,13 @@ const Headers = () => {
                             />
                             </span></h3>
                             <p>"Would you like me to give you a formula for success? It's quite simple, really: Double your rate of failure. You are thinking of failure as the enemy of success. But it isn't at all. You can be discouraged by failure or you can learn from it, so go ahead and make mistakes. Make all you can. Because remember that's where you will find success." <strong>-- Thomas J. Watson</strong></p>
-                        <Link to="https://drive.google.com/file/d/1DtqN-sNxNjjWt0Q5CcV9UYujANl4jhIC/view?usp=sharing"><button className="btn btn-success" type="submit">Hire Me</button></Link>
+                        <Link to="//drive.google.com/file/d/1DtqN-sNxNjjWt0Q5CcV9UYujANl4jhIC/view?usp=sharing" target="blank"><button className="btn btn-success" type="submit">Hire Me</button></Link>
                         {/* --===== Social Links =====-- */}
                         <div className="social-links my-3">
-                            <Link to="https://www.facebook.com/gulamfrk/" className="facebook"><FontAwesomeIcon icon={faFacebook} /></Link>
-                            <Link to="https://twitter.com/gulamfaruk_bd" className="twitter"><FontAwesomeIcon icon={faTwitter} /></Link>
-                            <Link to="https://www.linkedin.com/in/gulamfaruk/" className="linkedin"><FontAwesomeIcon icon={faLinkedinIn} /></Link>
-                            <Link to="https://github.com/glmfrk" className="github"><FontAwesomeIcon icon={faGithub} /></Link>
+                            <Link to="//www.facebook.com/gulamfrk/" target="blank" className="facebook"><FontAwesomeIcon icon={faFacebook} /></Link>
+                            <Link to="//twitter.com/gulamfaruk_bd" target="blank" className="twitter"><FontAwesomeIcon icon={faTwitter} /></Link>
+                            <Link to="//www.linkedin.com/in/gulamfaruk/" target="blank" className="linkedin"><FontAwesomeIcon icon={faLinkedinIn} /></Link>
+                            <Link to="//github.com/glmfrk" target="blank" className="github"><FontAwesomeIcon icon={faGithub} /></Link>
                         </div>
                     </div>
                     <div className="col-md-6 profileImg  ">

@@ -32,7 +32,7 @@ const iconsData = [
         id:3,
         fontAwesomeIcon: icon1,
         infoTitle: "Website :",
-        info: <Link to="//localhost:3000/" >localhost:3000</Link>
+        info: <Link to="//my-portfolio-cv-8980e.web.app/" target="blank">my-portfolio-cv-8980e.web.app</Link>
 
     },
     {
