@@ -25,7 +25,7 @@ const Home = () => {
               <div class="container">
                   <row>
                       <div class="col">
-                          <strong>&copy; copyright by <Link to="//www.facebook.com/gulamfrk" target="blank"> Gulam Faruk</Link></strong>
+                          <strong>&copy; Powered by <Link to="//www.facebook.com/gulamfrk" target="blank"> Gulam Faruk</Link></strong>
                       </div>
                   </row>
               </div>
